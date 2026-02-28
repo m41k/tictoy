@@ -115,7 +115,8 @@ def run_tic80(cart_path):
     pygame.quit()
 
     # Se precisar, troque "tic80" pelo caminho completo
-    subprocess.run(["/home/mxq/tic80_build_armhf/bin/tic80", cart_path])
+    #subprocess.run(["/home/mxq/tic80_build_armhf/bin/tic80", cart_path])
+    subprocess.run(["tic80", cart_path])
 
     pygame.init()
 
